@@ -70,3 +70,43 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* daniels styling */
+body{
+background-color: hsl(212, 45%, 89%) ;
+min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.text {
+  padding-top: 6px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.image {
+  margin-bottom: 0.35rem;
+}
+
+h1{
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  color: hsl(220, 15%, 55%);
+}
